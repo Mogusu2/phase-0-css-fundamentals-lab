@@ -1,5 +1,55 @@
-body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
+/* Header */
+header h1 {
+  text-align: center;
+}
+
+/* Image */
+img {
+  display: block;
+  margin: 0 auto; 
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+/* Navigation */
+nav a {
+  display: inline-block;
+  text-align: center;
+  padding: 10px;
+  background-color: #f0f0f0;
+  margin: 0 5px; /* Adjust the margin as needed */
+}
+
+/* Image Caption */
+img alt {
+  font-size: 12px; /* Adjust the font size as needed */
+  text-align: center;
+}
+/*figcaption*/
+figcaption {
+  text-align: center;
+}
+
+
+/* Text Block */
+#featured-property p {
+  text-align: center;
+  
+}
+
+/* Details Section */
+#details {
+  display: flex;
+  justify-content: space-between;
+}
+
+#details div {
+  float: left;
+  width: 25%;
+  background-color: #f0f0f0;
+  text-align: center;
+  padding: 10px;
 }
